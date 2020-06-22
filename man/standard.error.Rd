@@ -22,5 +22,10 @@ It involves a leave-one-out strategy of the estimation of a parameter
 (e.g., the mean) in a data set of N observations (or records).
 This function additionally compute standard error and bias
 }
+\examples{
+x = c(138.5, 138.5, 140.0, 141.0, 141.0, 143.5, 145.0, 147.0, 148.5, 150.0, 153.0, 154.0, 155.0, 156.5, 157.0, 158.5, 159.0, 159.0, 159.0, 160.5, 161.0, 162.0)
+jackknife(x, mean)
+
+}
 \keyword{bootstrap}
 \keyword{jackknife,}
