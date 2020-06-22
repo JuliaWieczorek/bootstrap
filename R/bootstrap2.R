@@ -9,6 +9,8 @@
 #'
 #' @keywords bootstrap, sample
 #'
+#' @return The selected estimator
+#'
 #' @example
 #' x = c(138.5, 138.5, 140.0, 141.0, 141.0, 143.5, 145.0, 147.0, 148.5, 150.0, 153.0, 154.0, 155.0, 156.5, 157.0, 158.5, 159.0, 159.0, 159.0, 160.5, 161.0, 162.0)
 #' bootstrap(x, 200, mean)
@@ -27,4 +29,5 @@ bootstrap2 <- function(X, n, ES){
   }
   return(boot_stat)
 }
+
 

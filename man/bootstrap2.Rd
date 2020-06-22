@@ -13,6 +13,9 @@ bootstrap2(X, n, ES)
 
 \item{ES}{estimation function, np. mean, var, sd or function create by you}
 }
+\value{
+The selected estimator
+}
 \description{
 This functions allows you to estimate the value of the estimator
 by means of multiple draws with returning from a sample.
