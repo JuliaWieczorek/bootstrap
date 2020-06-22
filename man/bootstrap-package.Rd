@@ -8,4 +8,12 @@
 \description{
 This package contains a set of functions that used to estimate using multiple sample draws
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/JuliaWieczorek/bootstrap}
+  \item Report bugs at \url{https://github.com/JuliaWieczorek/bootstrap/issues}
+}
+
+}
 \keyword{internal}
