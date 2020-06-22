@@ -7,7 +7,7 @@
 bootstrap2(X, n, ES)
 }
 \arguments{
-\item{X}{data vector, np. c(1,2,3)}
+\item{X}{data vector}
 
 \item{n}{number of bootstrap repetitions}
 

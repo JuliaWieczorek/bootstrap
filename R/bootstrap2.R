@@ -3,7 +3,7 @@
 #' @description This functions allows you to estimate the value of the estimator
 #' by means of multiple draws with returning from a sample.
 #'
-#' @param X data vector, np. c(1,2,3)
+#' @param X data vector
 #' @param n number of bootstrap repetitions
 #' @param ES estimation function, np. mean, var, sd or function create by you
 #'
@@ -15,6 +15,8 @@
 #' bootstrap(x, 500, mean)
 #' bootstrap(x, 1000, mean)
 #' bootstrap(x, 10000, mean)
+#'
+#' @export
 
 
 bootstrap2 <- function(X, n, ES){

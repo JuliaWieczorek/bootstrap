@@ -7,7 +7,7 @@
 jackknife(X, ES)
 }
 \arguments{
-\item{X}{data vector, np. c(1,2,3)}
+\item{X}{data vector}
 
 \item{ES}{estimation function, np. mean, var, sd, median or function created by you}
 }
